@@ -43,3 +43,25 @@ A simple Python project that uses **Least Significant Bit (LSB) Steganography** 
 
 ```bash
 python -m venv venv
+# Linux / Mac
+source venv/bin/activate
+
+# Windows
+venv\Scripts\activate
+
+# installation:
+pip install -r requirements.txt
+
+
+requirements.txt:
+click==8.0.1
+colorama==0.4.4
+docopt==0.6.2
+Flask==2.0.1
+itsdangerous==2.0.1
+Jinja2==3.0.1
+MarkupSafe==2.0.1
+numpy==1.20.3
+opencv-python==4.5.2.52
+Pillow==8.2.0
+Werkzeug==2.0.1
